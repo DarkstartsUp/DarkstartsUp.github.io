@@ -2,20 +2,20 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Ph.D. Student, Tsinghua University.
 
 profile:
   align: left
   image: my_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Ph.D. Student</p>
-    <p>Tsinghua University</p>
-    <p>wang-xy22(at)mails.tsinghua.edu.</p>
+  image_circular: true # crops the image to make it circular
+  more_info: 
+    # <p></p>
+    # <p></p>
+    # <p><a href='mailto:wang-xy22@mails.tsinghua.edu.cn'>wang-xy22(at)mails.tsinghua.edu.cn</a>.</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
