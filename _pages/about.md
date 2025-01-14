@@ -7,11 +7,11 @@ subtitle: Ph.D. Student, Tsinghua University.
 profile:
   align: left
   image: my_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: 
     # <p></p>
     # <p></p>
-    # <p><a href='mailto:wang-xy22@mails.tsinghua.edu.cn'>wang-xy22(at)mails.tsinghua.edu.cn</a>.</p>
+    # <p></p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
