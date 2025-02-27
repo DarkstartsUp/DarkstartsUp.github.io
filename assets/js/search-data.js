@@ -45,14 +45,14 @@ ninja.data = [{
           window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
         
       },
-    },{id: "news-a-paper-titled-the-synergy-of-dialogue-and-art-exploring-the-potential-of-multimodal-ai-chatbots-in-emotional-support-has-been-accepted-as-a-poster-for-cscw-2024",
-          title: 'A paper titled “The Synergy of Dialogue and Art: Exploring the Potential of...',
+    },{id: "news-a-paper-has-been-accepted-as-a-poster-for-cscw-2024",
+          title: 'A paper has been accepted as a poster for CSCW 2024.',
           description: "",
-          section: "News",},{id: "news-a-paper-titled-vr-whispering-a-multisensory-approach-for-private-conversations-in-social-virtual-reality-has-been-accepted-by-tvcg-and-will-be-presented-at-ieee-vr-2025",
-          title: 'A paper titled “VR Whispering: A Multisensory Approach for Private Conversations in Social...',
+          section: "News",},{id: "news-a-paper-has-been-accepted-by-tvcg-and-will-be-presented-at-ieee-vr-2025",
+          title: 'A paper has been accepted by TVCG and will be presented at IEEE...',
           description: "",
-          section: "News",},{id: "news-a-paper-titled-raise-your-eyebrows-higher-facilitating-emotional-communication-in-social-virtual-reality-through-region-specific-facial-expression-exaggeration-has-been-accepted-by-chi-2025",
-          title: 'A paper titled “Raise Your Eyebrows Higher: Facilitating Emotional Communication in Social Virtual...',
+          section: "News",},{id: "news-a-paper-has-been-accepted-by-chi-2025",
+          title: 'A paper has been accepted by CHI 2025.',
           description: "",
           section: "News",},{
         id: 'social-email',
