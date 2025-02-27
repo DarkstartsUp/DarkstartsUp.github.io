@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A paper titled "Raise Your Eyebrows Higher: Facilitating Emotional Communication in Social Virtual Reality Through Region-Specific Facial Expression Exaggeration" has been accepted by [CHI 2025](https://chi2025.acm.org).
+A paper has been accepted by [CHI 2025](https://chi2025.acm.org).

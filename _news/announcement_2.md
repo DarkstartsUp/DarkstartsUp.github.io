@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A paper titled "VR Whispering: A Multisensory Approach for Private Conversations in Social Virtual Reality" has been accepted by TVCG and will be presented at [IEEE VR 2025](https://ieeevr.org/2025/).
+A paper has been accepted by TVCG and will be presented at [IEEE VR 2025](https://ieeevr.org/2025/).
