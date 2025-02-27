@@ -18,8 +18,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I’m a third year Ph.D student at [Institute for Network Scienees and Cyberspace](https://www.insc.tsinghua.edu.cn), Tsinghua university supervised by [Prof. Yi Xin](https://www.insc.tsinghua.edu.cn/info/1157/2453.htm). I obtained my M.S. degree on Data Science and Information Technology at Tsinghua university supervised by [Prof. Lu Fang](http://www.luvision.net). Previously, I received my B.S. degree on Automation at the [Xi'an Jiaotong University](https://www.xjtu.edu.cn/) in 2019.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research fields are Human-Computer Interaction, Security, and Privacy in Extended Reality (XR), focusing on:
+
+- **User Perception and Cognition in XR Environments**, including spatial awareness, motion dynamics, and social signal processing in virtual-physical integrated spaces.
+- **Adaptive XR Interface Design**, emphasizing multimodal interaction and AI-driven experience optimization.
+- **Privacy-Enhanced XR Systems**, specializing in privacy-preserving collaboration frameworks and secure authentication mechanisms for immersive environments.
