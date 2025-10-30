@@ -47,6 +47,9 @@ ninja.data = [{
           section: "News",},{id: "news-a-paper-has-been-accepted-by-chi-2025",
           title: 'A paper has been accepted by CHI 2025.',
           description: "",
+          section: "News",},{id: "news-a-paper-has-been-accepted-by-ismar-2025",
+          title: 'A paper has been accepted by ISMAR 2025.',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
