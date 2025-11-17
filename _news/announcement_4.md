@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper cLock has been accepted by [ISMAR 2025](https://www.ieeeismar.net/2025/).
+Our paper [cLock](https://ieeexplore.ieee.org/document/11220354) has been accepted by [ISMAR 2025](https://www.ieeeismar.net/2025/).
