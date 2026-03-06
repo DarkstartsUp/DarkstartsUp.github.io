@@ -50,6 +50,9 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-clock-has-been-accepted-by-ismar-2025",
           title: 'Our paper cLock has been accepted by ISMAR 2025.',
           description: "",
+          section: "News",},{id: "news-our-papers-roomify-and-mind-the-gap-have-been-accepted-by-chi-2026",
+          title: 'Our papers Roomify and Mind the Gap have been accepted by CHI 2026....',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
