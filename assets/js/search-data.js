@@ -53,6 +53,9 @@ ninja.data = [{
           section: "News",},{id: "news-our-papers-roomify-and-mind-the-gap-have-been-accepted-by-chi-2026",
           title: 'Our papers Roomify and Mind the Gap have been accepted by CHI 2026....',
           description: "",
+          section: "News",},{id: "news-i-start-as-a-research-visitor-at-sensing-interaction-amp-amp-perception-lab-siplab-department-of-computer-science-eth-zürich",
+          title: 'I start as a Research Visitor at Sensing, Interaction &amp;amp;amp; Perception Lab (SIPLAB),...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
@@ -66,6 +69,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://github.com/DarkstartsUp", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/xueyang-wang-261986345", "_blank");
         },
       },{
         id: 'social-orcid',
