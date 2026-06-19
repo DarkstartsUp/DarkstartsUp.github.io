@@ -56,6 +56,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-start-as-a-research-visitor-at-sensing-interaction-amp-amp-perception-lab-siplab-department-of-computer-science-eth-zürich",
           title: 'I start as a Research Visitor at Sensing, Interaction &amp;amp;amp; Perception Lab (SIPLAB),...',
           description: "",
+          section: "News",},{id: "news-our-paper-is-it-real-has-been-accepted-by-soups-2026",
+          title: 'Our paper Is It Real? has been accepted by SOUPS 2026.',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
