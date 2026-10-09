@@ -1,0 +1,67 @@
+{% assign project = include.project %}
+<section class="portfolio-project portfolio-project--{{ project.id }}" id="{{ project.id }}" aria-labelledby="{{ project.id }}-title">
+  <div class="portfolio-project-content">
+    <div class="portfolio-project-meta">
+      <span class="portfolio-project-focus"
+        ><span class="portfolio-project-number">0{{ include.number }}</span> {{ project.focus -}}
+      </span>
+      <span class="portfolio-project-venue">{{ project.venue }}</span>
+    </div>
+    <h2 id="{{ project.id }}-title">{{ project.title }}</h2>
+    <p class="portfolio-project-tagline">{{ project.tagline }}</p>
+    <p class="portfolio-project-description">{{ project.description }}</p>
+    <ul class="portfolio-project-tags" aria-label="Project topics">
+      {% for tag in project.tags %}
+        <li>{{ tag }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="portfolio-media">
+    {% if project.video %}
+      <video
+        id="{{ project.id }}-video"
+        controls
+        playsinline
+        preload="none"
+        poster="{{ project.poster | relative_url }}"
+        aria-label="{{ project.title }} project demo"
+      >
+        <source src="{{ project.video | relative_url }}" type="video/mp4">
+        Your browser does not support embedded video. <a href="{{ project.video | relative_url }}">Watch the demo video</a>.
+      </video>
+      <button class="portfolio-play" type="button" aria-label="Play {{ project.title }} demo" aria-controls="{{ project.id }}-video" hidden>
+        <span class="portfolio-play-label"><span class="portfolio-play-icon" aria-hidden="true">&#9654;</span> Watch demo</span>
+      </button>
+    {% else %}
+      <a
+        class="portfolio-video-launch"
+        href="{{ project.video_url }}"
+        data-youtube-id="{{ project.video_id }}"
+        data-video-title="{{ project.title }} project demo"
+        aria-label="Play {{ project.title }} demo"
+      >
+        <img src="{{ project.poster | relative_url }}" alt="{{ project.title }} project overview" loading="lazy" width="1600" height="900">
+        <span class="portfolio-play-label"><span class="portfolio-play-icon" aria-hidden="true">&#9654;</span> Watch demo</span>
+      </a>
+    {% endif %}
+  </div>
+
+  <div class="portfolio-project-footer">
+    <span class="portfolio-demo-note">Project demo <span aria-hidden="true">&middot;</span> {{ project.title }}</span>
+    <div class="portfolio-project-links">
+      <a href="{{ project.paper | relative_url }}" aria-label="Read the {{ project.title }} paper"
+        >Read paper <span aria-hidden="true">&#8599;</span></a
+      >
+      {% if project.video_url %}
+        <a href="{{ project.video_url }}" target="_blank" rel="noopener noreferrer" aria-label="Watch {{ project.title }} on YouTube"
+          >YouTube <span aria-hidden="true">&#8599;</span></a
+        >
+      {% else %}
+        <a href="{{ project.video | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open the {{ project.title }} video"
+          >Open video <span aria-hidden="true">&#8599;</span></a
+        >
+      {% endif %}
+    </div>
+  </div>
+</section>

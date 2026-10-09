@@ -1,0 +1,54 @@
+# Add projects here in the order they should appear on the Portfolio page.
+- id: roomify
+  title: Roomify
+  venue: CHI 2026
+  focus: Personalized spaces
+  tagline: Reimagine your room. Keep its spatial reality.
+  description: >-
+    An AI-driven system that transforms physical rooms into themed virtual environments
+    while preserving their layout and furniture functions. A cross-reality authoring tool
+    lets users refine the space in MR and experience it in VR.
+  tags:
+    - Generative AI
+    - Spatial understanding
+    - MR / VR authoring
+  poster: /assets/img/publication_preview/roomify.png
+  video_id: zPEOMXafHVA
+  video_url: https://youtu.be/zPEOMXafHVA
+  paper: /assets/pdf/wang2026roomify.pdf
+
+- id: vr-whispering
+  title: VR Whispering
+  venue: IEEE TVCG 2025
+  focus: Multisensory communication
+  tagline: Bring the feeling of a whisper into social VR.
+  description: >-
+    A private conversation technique combining avatar proximity, whisper-like audio,
+    and gentle airflow near the ear. These coordinated cues help people recognize
+    private exchanges and feel connected, while a contextual record keeps them
+    in touch with the surrounding conversation.
+  tags:
+    - Social VR
+    - Multisensory interaction
+    - Privacy experience
+  poster: /assets/img/publication_preview/Whisper.png
+  video: /assets/video/VR-Whispering-TVCG-2025.mp4
+  paper: /assets/pdf/wang2025vr.pdf
+
+- id: clock
+  title: cLock
+  venue: IEEE ISMAR 2025
+  focus: Usable security
+  tagline: One hand. Two factors. An interaction made for VR.
+  description: >-
+    A single-handed authentication system that turns wrist rotation and finger tapping
+    into PIN input on a circular interface. It combines the PIN with behavioral
+    biometrics captured during the same interaction, balancing usability and
+    resistance to shoulder surfing.
+  tags:
+    - Gesture interaction
+    - Behavioral biometrics
+    - VR authentication
+  poster: /assets/img/publication_preview/cLock.png
+  video: /assets/video/cLock-demo-video-ISMAR-2025.mp4
+  paper: /assets/pdf/wang2025clock.pdf
